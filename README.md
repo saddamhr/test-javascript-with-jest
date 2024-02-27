@@ -1,7 +1,6 @@
-```
-# Project Name
+# Test JavaScript code with Jest
 
-Welcome to Project Name! This repository contains the codebase for [brief description of the project].
+Welcome to Test JavaScript code with Jest! This repository contains the codebase for testing JavaScript code with Jest including asynchronous code.
 
 ## Getting Started
 
@@ -12,10 +11,10 @@ To get started with the project, follow the instructions below.
 Clone the repository to your local machine using the following command:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/saddamhr/test-javascript-with-jest
 ```
 
-Replace `<repository-url>` with the actual URL of the repository.
+Replace `https://github.com/saddamhr/test-javascript-with-jest` with the actual URL of the repository.
 
 ### Install Dependencies
 
@@ -51,7 +50,8 @@ Please ensure that your code adheres to the project's coding standards and conve
 
 ## License
 
-[License Name] - [Brief description of the license terms]
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
+
 ```
 
-Replace `[License Name] - [Brief description of the license terms]` with the actual license information for your project. Additionally, replace `[brief description of the project]`, `<repository-url>`, and `project-directory` with the appropriate details relevant to your project.
+Replace `[MIT License] - [Brief description of the license terms]` with the actual license information for your project. Additionally, replace `[brief description of the project]`, `https://github.com/saddamhr/test-javascript-with-jest`, and `project-directory` with the appropriate details relevant to your project.
