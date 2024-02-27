@@ -1,6 +1,6 @@
 # Test JavaScript code with Jest
 
-Welcome to Test JavaScript code with Jest! This repository contains the codebase for testing JavaScript code with Jest including asynchronous code.
+Welcome to Test JavaScript code with Jest! This repository contains the codebase for testing JavaScript code with Jest including asynchronous test.
 
 ## Getting Started
 
