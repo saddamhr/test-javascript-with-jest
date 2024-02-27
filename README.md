@@ -48,4 +48,5 @@ Please ensure that your code adheres to the project's coding standards and conve
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/saddamhr/test-javascript-with-jest/blob/main/LICENSE) file for details.
+
