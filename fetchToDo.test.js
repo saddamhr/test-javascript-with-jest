@@ -1,23 +1,9 @@
 const fetchToDo = require('./fetchToDo');
-const fetchMock = require('jest-fetch-mock');
-
-// test('the data is freeCodeCamp', async () => {
-//   const data = await fetchToDo();
-//   expect(data).toEqual({
-//     userId: 1,
-//     id: 1,
-//     title: 'delectus aut autem',
-//     completed: false,
-//   });
-// });
-
-// const fetchToDo = require('./fetchToDo');
 
 describe('fetchToDo', () => {
   it('fetches todo data from API', async () => {
-    // Mocking the fetch function
-    global.fetch = jest.fn(() =>
-      Promise.resolve({
+    global.fetch = jest.fn(() => {
+      return Promise.resolve({
         json: () =>
           Promise.resolve({
             userId: 1,
@@ -25,17 +11,19 @@ describe('fetchToDo', () => {
             title: 'delectus aut autem',
             completed: false,
           }),
-      })
-    );
+      });
+    });
 
     // Call the function
     const data = await fetchToDo();
 
     // Expectations
-    expect(data.userId).toBe(1);
-    expect(data.id).toBe(1);
-    expect(data.title).toBe('delectus aut autem');
-    expect(data.completed).toBe(false);
+    expect(data).toEqual({
+      userId: 1,
+      id: 1,
+      title: 'delectus aut autem',
+      completed: false,
+    });
 
     // Check if fetch was called with the correct URL
     expect(fetch).toHaveBeenCalledWith(
@@ -45,7 +33,7 @@ describe('fetchToDo', () => {
 
   it('handles errors gracefully', async () => {
     // Mocking the fetch function to simulate an error
-    global.fetch = jest.fn(() => Promise.reject('Network Error'));
+    global.fetch = jest.fn(() => Promise.reject(new Error('Network Error')));
 
     // Expect the function to throw an error
     await expect(fetchToDo()).rejects.toEqual('Network Error');
