@@ -14,8 +14,6 @@ Clone the repository to your local machine using the following command:
 git clone https://github.com/saddamhr/test-javascript-with-jest
 ```
 
-Replace `https://github.com/saddamhr/test-javascript-with-jest` with the actual URL of the repository.
-
 ### Install Dependencies
 
 After cloning the repository, navigate to the project directory and install the dependencies using npm:
@@ -52,6 +50,3 @@ Please ensure that your code adheres to the project's coding standards and conve
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
 
-```
-
-Replace `[MIT License] - [Brief description of the license terms]` with the actual license information for your project. Additionally, replace `[brief description of the project]`, `https://github.com/saddamhr/test-javascript-with-jest`, and `project-directory` with the appropriate details relevant to your project.
